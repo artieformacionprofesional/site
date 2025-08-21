@@ -1,0 +1,97 @@
+body{
+    background-color:darksalmon;
+    padding: none;
+}
+a{
+    width:auto;
+    color: orange;
+}
+a:hover{
+    color: orangered;
+}
+a:active{
+    color:brown;
+}
+.wrapper {
+    width: 500px;
+    margin: auto;
+    padding-right: 25vw;
+    padding-left: 25vw;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: antiquewhite;
+    margin-top: 0px;
+    border: 6px solid orangered;
+}
+header {
+    width: 500px;
+    background-color: salmon;
+    margin-bottom:15px;
+    border-radius: 16px;
+}
+header h1
+{
+    text-align: center;
+    text-shadow: 0 2px black;
+    border-top-right-radius: 16px;
+}
+nav {
+    padding: 5px;
+    margin-top: 2px;
+}
+nav ul {
+    display:flex;
+    height: 20px;
+    width:auto;
+    margin:auto;
+    margin-left: -5%;
+}
+nav ul li{
+    list-style-type:none;
+    width: 25%;
+    background-color:aliceblue;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0 2px 0 0 orange;
+}
+nav ul li:hover{
+    box-shadow: 0 6px 0 0 orangered;
+}
+nav ul li:active{
+    box-shadow: 0 6px 0 0 brown;
+}
+section {
+    text-align: justify;
+    border: 2px dotted salmon;
+    border-radius: 0px;
+    padding: 5px;
+    margin-bottom: 25px;
+    background-color: aliceblue;
+    box-shadow: 0px 2px 2px 2px salmon;
+}
+h1, h2, h3{
+    text-align: left;
+    color:aliceblue;
+    text-shadow: 0 2px orangered;
+    padding:5px;
+    margin: 0px;
+    background-color:coral;
+    box-shadow: 0 6px 0px 0px orangered;
+}
+article {
+    border-bottom: 2px dotted orangered;
+    border-top: 2px solid orangered;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color:black;
+}
+footer{
+    background-color: transparent;
+    border-top: solid 2px brown;
+    font-size: 14px;
+    text-align: center;
+    color:brown;
+}
