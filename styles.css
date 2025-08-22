@@ -98,19 +98,29 @@ footer{
 }
 
 @media (max-width:600px){
-    .wrapper {
-        width: 96vw;
-        border: none;
-        padding-left: 2vw;
-        padding-right: 2vw;
+    body {
+        padding: 0px;
+        margin: 0;
     }
-    .section
+    
+    .wrapper {
+        width: 94vw;
+        margin: auto;
+        border: none;
+        padding: 2vw;
+    }
+    section
     {
-        width: 100%;
+        width: 95%;
+        margin-left: 0;
+        margin-right: 0;
     }
     header
     {
         width: 100%;
     }
+    article
+    {
+        width: auto;
+    }
 }
-
